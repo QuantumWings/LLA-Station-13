@@ -6,9 +6,11 @@ env:
     - BYOND_MAJOR="504"
     - BYOND_MINOR="1232"
     matrix:
+    - DM_MAPFILE="libertystation"
     - DM_MAPFILE="tgstation2"
     - DM_MAPFILE="metastation"
     - DM_MAPFILE="ministation"
+	
 
 before_install:
   - sudo apt-get update -qq
